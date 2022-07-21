@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* .text-black{
+    color: #000;
+} */
+.step {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.step a {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.col-12 {
+    display: flex;
+}
+
+.text-prim {
+    color: #0A58CA;
+}
+.bg-second{
+    background-color: #24b800;
+}
+
+.number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #24b800;
+    color: #fff;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features button,
+.pricing button {
+    background-color: rgba(36, 184, 0, .2);
+    color: #24b800;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 12px;
+}
+
+.cta button {
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 12px;
+}
+
+.testimonials,
+.pricing,
+.footer {
+    background-color: #EFEFEF;
+}
+
+.price-card__list i {
+    margin-right: 10px;
+    color: #24b800;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price-card__list li {
+    line-height: 23px;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer .icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.circle{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    background-color: #24b800;
+    color: #fff;
+    border-radius: 50%;
+    
+}
+.circle i{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+
+}
+.contact-info__title{
+    font-size: 18px;
+}
+.questions-icons{
+margin-top: -5px;
+}
